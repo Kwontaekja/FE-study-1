@@ -13,7 +13,7 @@ import styled from 'styled-components';
 import Header from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/containers/Header.js';
 import Footer from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/containers/Footer.js';
 
-import Home from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/components/Home.js';
+import Home from '//Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/containers/Home.js';
 import Company from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/components/Company.js';
 import Service from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/components/Service.js';
 import PR from '/Users/carplat/Desktop/vs-code/FE-study/FE-study-1/FE-study-1/demo-app/src/components/PR.js';
@@ -58,9 +58,9 @@ export default function App() {
             <Home />
           </Route>
         </Switch>
-      </div>
 
-      <Footer />
+        <Footer />
+      </div>
     </Router>
   );
 }
